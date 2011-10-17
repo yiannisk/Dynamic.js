@@ -27,3 +27,17 @@ $(function () {
 	dmc.sampleCall().sampleCall();
 });
 ```
+
+Besides the obvious use for method chaining asyncrhonous calls, a dynamic 
+object works like a queue of calls, so it can be used to ensure that particular 
+method calls are executed sequentially.
+
+Usage
+-----
+
+In order to use a dynamic object, all you have to do is:
+
+1. Create a new dynamic template object, via `ik.dynamic.make()`.
+2. Use the provided `map()` method to extend the object with any number
+   of methods.
+3. You 're done.
