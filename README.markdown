@@ -5,7 +5,7 @@ Is a simple script for keeping track of asynchronous calls in an object's
 methods. Put simply, it ensures two asynchronous method calls will happen one
 after the other. The example below illustrates:
 
-``` javascriot
+``` javascript
 $(function () {
 	var dmc = ik.dynamic.make();
 	dmc.map({
